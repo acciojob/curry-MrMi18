@@ -1,4 +1,7 @@
 function curry(callback) {
+	if(callback){
+		return callback;
+	}
   
 }
 
